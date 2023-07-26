@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+  }
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #656a8b;
+    border-radius: 10px;
+  }
+  .inside::-webkit-scrollbar {
+    height: 5px;
+  }
+  .inside::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  .inside::-webkit-scrollbar-thumb {
+    background: #3d3938;
+    border-radius: 10px;
+  }
+  .all-catogry{
+    display: flex;overflow-x: auto;
+  }
+  .all-catogry img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+  }
+  .cd{
+    margin-top: 20px;
+  }
+  .cd img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .card-body a{
+    text-decoration: none;
+  }
+  .essentials img{
+    width: 200px;
+    height: 200px;
+  }
+  .all-catogry a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .Offers img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .discount img{
+    width: auto;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .budget-check{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .budget-check img{
+    width: 248px;
+    height: 250px;
+  }
+  .total_deals img{
+    min-width: auto;
+    max-width: auto;
+    height: 250px;
+    object-fit: contain;
+  }
+  .brands{
+    background-color: lemonchiffon;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 10px lightgray;
+  }
+  .brands img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+  }
+  .see-all{
+    background-color: #b6d1d969;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .see-all a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-in-1 a{
+    text-decoration: none; 
+    color: black;
+  }
+  .sign-in-1 button{
+    width: 300px;
+    margin-left: 44px;
+  }
+  .footer{
+    background-color: #172337;
+  }
+  .footer h5{
+    color: slategrey;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .footer-items{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-items ul{
+    list-style: none;
+    font-weight: 400;
+    font-family: serif;
+    font-size: 13px;
+  }
+  .footer-items a{
+    text-decoration: none;
+    color: white;
+  }
